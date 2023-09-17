@@ -1,4 +1,5 @@
 // Reference for DOM Object
+const parentDiv = document.querySelector(".maincon");
 const originalDiv = document.querySelector(".firstbox");
 const subDiv = document.querySelector(".box1a");
 
@@ -7,13 +8,10 @@ const clonedDiv = subDiv.cloneNode(true);
 const secondClone = clonedDiv.cloneNode(true);
 
 // styling clonedDiv
-clonedDiv.style.marginTop = '10px';
-clonedDiv.style.display = 'flex';
-clonedDiv.style.flexDirection = 'row';
-clonedDiv.style.justifyContent = 'center';
+parentDiv.style.display = 'flex';
 
 
 
-originalDiv.appendChild(clonedDiv);
-clonedDiv.appendChild(secondClone);
+parentDiv.appendChild(clonedDiv);
+// clonedDiv.appendChild(secondClone);
 

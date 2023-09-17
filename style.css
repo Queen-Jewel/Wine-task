@@ -287,25 +287,24 @@ span {
 }
 /* MAIN */
 main {
-  width: 100%;
-  max-width: 1440px;
+  width: 90%;
+  max-width: 1000px;
 }
 
 .maincon {
-  right: 2000px;
+  /* right: 2000px; */
   width: 100%;
 }
 
 /* FIRSTBOX */
 .firstbox {
-  height: 20vh;
-  width: 90%;
-  max-width: 1000px;
+  width: 100%;
 }
 .box1a {
-  width: 25%;
+  width: 40%;
   padding: 10px;
   border: 1px solid black;
+  margin-right: 0px;
 }
 
 #tip {
