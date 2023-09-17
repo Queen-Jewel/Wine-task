@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 20px 40px;
+}
+body {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  background-color: #fdfcf0;
+  width: 100%;
+  /* height: 100vh; */
+  /* border: 2px solid gray; */
+  border-radius: 25px;
+}
+/* NAV BAR */
+nav {
+  padding: 5px 0 10px 0;
+}
+nav .flex {
+  justify-content: space-between;
+}
+.container {
+  position: relative;
+  justify-content: center;
+  padding: 5px 20px;
+  margin: 0 15px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  /* max-width: 1440px; */
+}
+.OW {
+  height: 60px;
+  width: 120px;
+  background-color: #fdfcf0;
+}
+
+/* search bar */
+.search {
+  display: flex;
+  position: relative;
+}
+#srch {
+  border-radius: 50px;
+  height: 40px;
+  width: 400px;
+  position: relative;
+}
+
+.srch {
+  position: absolute;
+  padding: 8px 0 0 0;
+  left: 350px;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+/* ICONS */
+.icons {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.icons img {
+  height: 40px;
+  padding: 0 20px;
+}
+
+/* TAB BAR */
+.tabcontainer {
+  align-content: center;
+  margin: 0 10px;
+}
+
+#items {
+  display: flex;
+  list-style: none;
+}
+
+#items li {
+  padding: 15px 65px;
+  border: 1px solid black;
+  font-size: 20px;
+}
+
+#items li:nth-child(1) {
+  border-left: transparent;
+}
+#items li:nth-child(6) {
+  border-right: transparent;
+}
+
+#items li:hover {
+  cursor: pointer;
+  color: #fdfcf0;
+  background-color: #b2605d;
+}
+/* HEAD BAR */
+.head {
+  display: flex;
+  padding: 15px;
+}
+
+#head {
+  padding: 0 5px;
+  font-size: 20px;
+}
+#head:nth-child(2) {
+  color: #d3d3cd;
+}
+
+/* SHOWCASE */
+.header {
+  margin: 40px 10px;
+  display: flex;
+  justify-content: space-between;
+  height: 5px;
+}
+
+.first {
+  display: flex;
+  padding: 0 10px;
+  align-items: flex-end;
+}
+
+.input {
+  height: 45px;
+  width: 350px;
+}
+.red {
+  display: flex;
+  padding: 0 30px;
+}
+
+.red p {
+  padding-right: 30px;
+  font-size: 22px;
+}
+
+.second {
+  display: flex;
+  align-items: flex-end;
+}
+
+#snd {
+  padding-right: 30px;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.pri,
+.rec {
+  position: relative;
+}
+
+#pri,
+#rec {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 24px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+
+
+/* GRID */
+.grid-container {
+  display: grid;
+  grid-template-columns: 31.5% 70%;
+}
+
+/* ASIDE */ 
+aside {
+  width: 100%;
+  max-width: 1440px;
+}
+
+.asicon {
+  width: 350px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  /* margin-top: 20px; */
+}
+
+.block ul {
+  list-style: none;
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-between;
+  margin-right:25px ;
+}
+
+.block ul li {
+  /* margin: 0px 10px; */
+  padding: 5px 40px 5px 40px;
+  border-left: 1px solid black;
+}  
+
+/* .block ul li:nth-child(3){
+    padding-left: -30px;
+    padding-right: -30px;
+} */
+.block ul li:nth-child(1){
+  color: gray;
+}
+.block ul li:nth-child(2){
+  color: gray;
+}
+/* aside heads */
+.in2 input  {
+  padding: 10px;
+  position: relative;
+  padding-left: 140px;
+  margin: 10px 0;
+  margin-bottom: -20px;
+}
+
+.in2 label {
+  position: relative;
+  left: 10px;
+  top: -23px;
+  font-size: 16px;
+}
+
+input[type=checkbox] {
+  accent-color: #fdfcf0;
+}
+/* first aside */
+.action {
+    margin: 10px 0px;
+    width: 300px;
+}
+
+.action label ,
+.colour label ,
+.var label ,
+.ness label ,
+.cntry label ,
+.tage label ,
+.number label {
+  display: inline-block;
+  width: 200px;
+  font-size: 16px;
+}
+
+.left {
+    position: absolute;
+    left: 100px;
+}
+span {
+    position: relative;
+    margin-left: 50px;
+    color: gray;
+}
+
+#show {
+  font-size: 1rem;
+  word-spacing: 6px;
+  margin-bottom: 10px;
+}
+
+#show2 {
+  font-size: 1rem;
+  word-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.show {
+  font-size: 0.8rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+/* MAIN */
+main {
+  width: 100%;
+  max-width: 1440px;
+}
+
+.maincon {
+  right: 2000px;
+  width: 100%;
+}
+
+/* FIRSTBOX */
+.firstbox {
+  height: 20vh;
+  width: 90%;
+  max-width: 1000px;
+}
+.box1a {
+  width: 25%;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#tip {
+  height: 20px;
+   width: 20px; 
+}
+#tip1 {
+  height:18px;
+   width: 18px;
+}
+/* tip1a */
+.tip1a,
+.fsta {
+  display: flex;
+  height: 5px;
+  
+}
+ 
+.tip1a {
+  justify-content: space-between;
+  margin-bottom: 15px;
+  
+}
+/* letters in main */
+#numa {
+  font-size: 12px;
+}
+
+#nump {
+  font-size: .5rem;
+}
+#numn {
+  margin-top: 10px;
+  font-size:17px;
+}
+
+
+/* BOTTLE AND FLAG */
+#bot {
+  width: 48px;
+  height: 170px;
+}
+
+#flag {
+  width: 15px;
+  height: 15px;
+}
+
+.mid1a {
+  display: flex;
+  width: 65%;
+  align-content: center;
+  justify-content:space-between ;
+}
+
+.enda {
+  margin: 20px 0 20px 0px;
+  height: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+  align-content: end;
+}
+
+#end {
+  font-size: 14px;
+}
+
+.endb {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#dol {
+  font-size: 18px;
+}
+
+.endb img {
+  width: 20px;
+  height: 20px;
+}
+
+hr {
+  border-top: 1px solid #000;
+}
