@@ -180,7 +180,7 @@ p {
 /* GRID */
 .grid-container {
   display: grid;
-  grid-template-columns: 31.5% 70%;
+  grid-template-columns: 31.5% 75%;
 }
 
 /* ASIDE */ 
@@ -297,11 +297,11 @@ main {
 }
 
 /* FIRSTBOX */
-.firstbox {
-  width: 100%;
-}
+/* .firstbox {
+  width: 10%;
+} */
 .box1a {
-  width: 40%;
+  width: 250px;
   padding: 10px;
   border: 1px solid black;
   margin-right: 0px;
@@ -344,7 +344,7 @@ main {
 
 /* BOTTLE AND FLAG */
 #bot {
-  width: 48px;
+  width: 50px;
   height: 170px;
 }
 
@@ -356,7 +356,6 @@ main {
 .mid1a {
   display: flex;
   width: 65%;
-  align-content: center;
   justify-content:space-between ;
 }
 
