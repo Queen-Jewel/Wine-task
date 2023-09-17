@@ -306,7 +306,7 @@ main {
   border: 1px solid black;
   margin-right: 0px;
 }
-
+/* Inside the box */
 #tip {
   height: 20px;
    width: 20px; 
