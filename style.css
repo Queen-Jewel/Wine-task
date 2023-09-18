@@ -305,6 +305,7 @@ main {
   padding: 10px;
   border: 1px solid black;
   margin-right: 0px;
+  height: 350px;
 }
 /* Inside the box */
 #tip {
@@ -344,7 +345,7 @@ main {
 
 /* BOTTLE AND FLAG */
 #bot {
-  width: 50px;
+  width: 48px;
   height: 170px;
 }
 
