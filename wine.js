@@ -64,5 +64,5 @@ parentDiv.appendChild(clonedDiv);
 parentDiv.appendChild(secondClone);
 
 originalDiv.appendChild(firstBox);
-originalDiv.appendChild(secondBox);
+originalDiv.appendChild(secondBox); 
 
