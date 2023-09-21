@@ -2,9 +2,11 @@
 const parentDiv = document.querySelector(".maincon");
 const originalDiv = document.querySelector(".firstbox");
 const subDiv = document.querySelector(".box1a");
+const originalDiv2 = document.querySelector(".secondbox");
+const subDiv2 = document.querySelector(".box2");
 
 
-// Multiplying div
+// BOX1
 const clonedDiv = subDiv.cloneNode(true);
 const secondClone = subDiv.cloneNode(true);
 
@@ -25,14 +27,14 @@ let dollar = clonedDiv.querySelector("#dol");
 
 // modify first clone
 num1.textContent = "4.7"
-bot.src = "images/les hauts.webp"
-numN.textContent ="FRAPPATO   0.75L"
+bot.src = "images/chateau la tour.jpg"
+numN.textContent ="CHATEAU LA TOUR   0.75L"
 flag.src = "flags/fr.svg"
 fran.textContent = "FR"
 dollar.textContent = "1200$"
 
 // modify img props
-bot.width = "100&"
+bot.width = "100"
 
 
 // Box second clone
@@ -53,10 +55,6 @@ flag2.src = "flags/fr.svg"
 fran2.textContent = "FR"
 dollar2.textContent = "450$"
 
-// SECOND BOX
-// const secondBox = parentDiv.createElement("div");
-// secondBox.innerHTML = "clonedDiv"
-
 
 
 // APPENDING CHILDREN
@@ -64,5 +62,24 @@ parentDiv.appendChild(clonedDiv);
 parentDiv.appendChild(secondClone);
 
 originalDiv.appendChild(firstBox);
-originalDiv.appendChild(secondBox); 
 
+
+
+// BOX2
+let clonedDiv2 = subDiv2.cloneNode(true);
+let secondClone2 = subDiv2.cloneNode(true);
+
+// Box second clone
+let numb = clonedDiv2.querySelector(".numab");
+let botb = clonedDiv2.querySelector(".botb");
+let numNb = clonedDiv2.querySelector(".numnb");
+let flagb = clonedDiv2.querySelector(".flagb");
+let franb = clonedDiv2.querySelector(".mdeb");
+let dollarb = clonedDiv2.querySelector(".dolb");
+
+
+// APPENDING CHILDREN
+parentDiv.appendChild(clonedDiv2);
+parentDiv.appendChild(secondClone2);
+
+originalDiv2.appendChild(secondBox);

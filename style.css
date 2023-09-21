@@ -296,10 +296,7 @@ main {
   width: 100%;
 }
 
-/* FIRSTBOX */
-/* .firstbox {
-  width: 10%;
-} */
+
 .box1a {
   width: 250px;
   padding: 10px;
@@ -390,4 +387,10 @@ main {
 
 hr {
   border-top: 1px solid #000;
+}
+
+
+/* BOX2 */
+.box2 {
+  margin-top: 25px;
 }
